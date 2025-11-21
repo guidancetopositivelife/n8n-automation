@@ -1,0 +1,6 @@
+Deploy instructions (concise):
+1. Push this repo to GitHub.
+2. On Railway, create a new project and connect the GitHub repo.
+3. Add variables: N8N_BASIC_AUTH_USER, N8N_BASIC_AUTH_PASSWORD, WEBHOOK_TUNNEL_URL.
+4. (Optional) Add Postgres plugin and set DATABASE_URL.
+5. Deploy and open the URL.
